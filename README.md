@@ -1,11 +1,9 @@
 # Digital-Comm-Lab-1
 
 In this lab GNURadio was used in concert with an SDR to scan AM radio frequencies using a given recording.
-
-
+## Flowchart
 ![image](https://github.com/blee0730/Digital-Comm-Lab-1/assets/130094173/156fd18f-3daf-4ef1-8300-4607a5aaaa07)
 This is the start of the flowchart that captures the message and multiplies it with a carrier. In the actual flowgraph the three blocks shown on the left are done in the single SDR source block on the right.
-
 
 ![image](https://github.com/blee0730/Digital-Comm-Lab-1/assets/130094173/9398ec91-670e-41ed-a4cf-323f869a87b5)
 Afterwards the new analog signal with the modulated message and carrier are put through a low pass filter.
