@@ -1,6 +1,6 @@
 # Digital-Comm-Lab-1
 
-In this lab GNURadio was used in concert with an SDR to scan AM radio frequencies using a given recording.
+In this lab GNURadio was used in concert with an SDR to scan AM radio frequencies using a given recording. All files used in the lab can be found in the above folder.
 ## Flowchart
 ![image](https://github.com/blee0730/Digital-Comm-Lab-1/assets/130094173/156fd18f-3daf-4ef1-8300-4607a5aaaa07)
 This is the start of the flowchart that captures the message and multiplies it with a carrier. In the actual flowgraph the three blocks shown on the left are done in the single SDR source block on the right.
