@@ -6,10 +6,10 @@ In this lab GNURadio was used in concert with an SDR to scan AM radio frequencie
 This is the start of the flowchart that captures the message and multiplies it with a carrier. In the actual flowgraph the three blocks shown on the left are done in the single SDR source block on the right.
 ### Low Pass Filter
 ![image](https://github.com/blee0730/Digital-Comm-Lab-1/assets/130094173/9398ec91-670e-41ed-a4cf-323f869a87b5)
-Afterwards the new analog signal with the modulated message and carrier are put through a low pass filter.
+Afterwards the new analog signal with the modulated message and carrier are put through a low pass filter to recover the message signal.
 ### Demodulator
 ![image](https://github.com/blee0730/Digital-Comm-Lab-1/assets/130094173/0f6d6146-5212-4f67-99a2-b59eb62604a0)
-Right after the low pass filter the signal is demodulated as shown on the right capturing only a single side (SSB).
+Right after the low pass filter the signal is demodulated as shown on the right shifting the center carrier frequency to 0.
 ### Transition Width
 ![image](https://github.com/blee0730/Digital-Comm-Lab-1/assets/130094173/e04079f2-5356-48f5-96f8-72292f31c853)
 The transition width of the demodulator is smaller than that of the low pass filter to reduce the noise from the signal.
